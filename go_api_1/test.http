@@ -10,7 +10,7 @@ GET http://localhost:8080/movies/1
 POST http://localhost:8080/movies HTTP/1.1
 
 {
-    "Isbn":"33", 
+    "Isbn":"33",
     "Title":"MovieOne",
     "Director":{"firstname":"post","lastname":"test"}
 }
